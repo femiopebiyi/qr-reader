@@ -17,7 +17,7 @@ form.addEventListener('click',function(){
 
 function fetchRequest (formData, file){
     infoTxt.innerText = "Scanning Qr Code"
-    fetch("http://api.qrserver.com/v1/read-qr-code/", {
+    fetch("https://api.qrserver.com/v1/read-qr-code/", {
 
     method: "POST",
     body: formData
